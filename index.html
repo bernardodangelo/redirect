@@ -4,9 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirecionamento</title>
-  <meta http-equiv="refresh" content="0;url=https://beacons.ai/bawmc">
+  <script>
+    // Função que verifica a URL atual e faz o redirecionamento
+    window.onload = function() {
+      const currentUrl = window.location.pathname;
+
+      // Verifica se o caminho é a raiz (bawmc.net)
+      if (currentUrl === "/") {
+        window.location.href = "https://beacons.ai/bawmc"; // Redireciona para o Beacons
+      } 
+      // Verifica se o caminho é /terreno (bawmc.net/terreno)
+      else if (currentUrl === "/terreno") {
+        window.location.href = "https://www.youtube.com/watch?v=6NmiarUBxE0&t=103s"; // Redireciona para o vídeo no YouTube
+      }
+    }
+  </script>
 </head>
 <body>
-  <p>Redirecionando para o Beacons...</p>
+  <p>Redirecionando...</p>
 </body>
 </html>
