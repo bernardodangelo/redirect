@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/terreno",
+      "destination": "https://beacons.ai/bawmc",
+      "permanent": true
+    }
+  ]
+}
