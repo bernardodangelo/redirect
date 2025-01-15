@@ -1,8 +1,13 @@
 {
   "redirects": [
     {
-      "source": "/terreno",
+      "source": "/",
       "destination": "https://beacons.ai/bawmc",
+      "permanent": true
+    },
+    {
+      "source": "/terreno",
+      "destination": "https://www.youtube.com/watch?v=6NmiarUBxE0&t=1s",
       "permanent": true
     }
   ]
